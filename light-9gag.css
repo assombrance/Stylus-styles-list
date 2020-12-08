@@ -71,6 +71,7 @@ div#stream-2>div>article:last-child,
 }
 
 /*promoted articles are hidden through js, because no way was found to use native css :
+    this is done using the addJS extention, an equivalent of Stylus for JS.
 
 window.addEventListener('scroll', function(e) {
     for (const article of document.querySelectorAll("article")) {
